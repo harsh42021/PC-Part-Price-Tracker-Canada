@@ -1,0 +1,22 @@
+{
+    "components": {
+        "Motherboard": ["MB_PARTNUM1", "MB_PARTNUM2"],
+        "CPU": ["CPU_PARTNUM1", "CPU_PARTNUM2"],
+        "GPU": ["GPU_PARTNUM1", "GPU_PARTNUM2"],
+        "NVME": ["SSD_PARTNUM1", "SSD_PARTNUM2"],
+        "CPU Cooler": ["COOLER_PARTNUM1"],
+        "Memory": ["MEMORY_PARTNUM1"],
+        "Case": ["CASE_PARTNUM1"],
+        "Power Supply": ["PSU_PARTNUM1"],
+        "Operating System": ["OS_PARTNUM1"],
+        "Case Fans": ["FAN_PARTNUM1"]
+    },
+    "retailers": {
+        "core": ["Amazon.ca", "Newegg.ca"],
+        "backup": ["Memory Express", "Canada Computers"]
+    },
+    "notifications": {
+        "email": true,
+        "pushbullet": true
+    }
+}
